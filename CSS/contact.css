@@ -1,0 +1,79 @@
+.body-contact{
+    height: 80vh;
+    width: 70vw;
+    display: flex;
+}
+
+.esquerda-contact{
+    height: 80vh;
+    width: 35vw;
+    display: grid;
+    justify-content: center;
+}
+
+.e-contact-btn{
+    height: 60px;
+    width: 270px;
+    cursor: pointer;
+    border-radius: 30px;
+    background: linear-gradient(to right, #ABD1EE 0%, #309DDD 100%);
+}
+
+.e-contact-btn p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.d-contact-card-cima{
+    height: 30vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-contact{
+    height: 80vh;
+    width: 35vw;
+}
+
+.d-contact-card-baixo{
+    height: 50vh;
+    width: 35vw;
+    border-radius: 60px;
+    background-color: rgba(217, 217, 217, 0.6);
+    display: block;
+}
+
+.card-baixo-titulo{
+    height: 8vh;
+    width: 35vw;
+    background-color: #0058AC;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-baixo-titulo p{
+    font-size: 30px;
+    color: white;
+}
+
+.infos{
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-top: 1vh;
+}
+
+.d-contact-card-baixo ul{
+    margin-top: 5vh;
+    font-size: 20px;
+}
+
+.d-contact-card-cima p{
+    font-size: 65px;
+    text-align: center;
+}

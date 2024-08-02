@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20vw;
+}
+
+.nav-bar ul li{
+    margin: 0 40px;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #19415B;
+    stroke: #ABD1EE;
+    stroke-width: 1.5;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fundo{
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -740px;
+}
+
+.fundo-nav{
+    object-fit: none;
+    align-self: flex-start;
+}
+
+.div-body{
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+}
+
+.esquerda{
+    width: 45vw;
+    height: 80vh;
+}
+
+.e-cima{
+    margin-top: 25vh;
+    height: 15vh;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+}
+
+.e-cima h1{
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.e-baixo{
+    height: 40vh;
+}
+
+.e-baixo p{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.direita{
+    height: 80vh;
+    width: 45vw;
+}
+
+.footer{
+    background-color: #1A415B;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer img{
+    height: 98%;
+}
+
+.footer-icons ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons ul img{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+.contato-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+}
+
+.infos-footer{
+    color: white;
+    display: block;
+    justify-content: center;
+}
+
+.info-footer{
+    display: flex;
+}
+
+.contato-footer img{
+    height: 40px;
+    display: flex;
+}

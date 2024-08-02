@@ -1,0 +1,54 @@
+.div-body-about{
+    height: 80vh;
+    width: 90vw;
+    display: block;
+}
+
+.about-cima-esquerda{
+    height: 40vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-cima-direita{
+    height: 40vh;   
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-cima{
+    display: flex;
+    height: 40vh;
+    width: 90vw;
+}
+
+.about-baixo{
+    height: 40vh;
+    width: 90vw;
+    display: flex;
+}
+
+.about-baixo-card{
+    padding-left: 20px;
+    height: 40vh;
+    width: 30vw;
+}
+
+.about-baixo-card p{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-cima-esquerda p{
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-cima-direita p{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
